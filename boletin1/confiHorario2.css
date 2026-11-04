@@ -1,0 +1,11 @@
+.red {background-color: #FF9797;}
+.orange {background-color: #FFDCB9;}
+.yellow {background-color: #FFFFB9;}
+.green {background-color: #BBFFBB;}
+.c {background-color: #CAFFFF;}
+.blue {background-color: #ACD6FF;}
+.purple {background-color: #DCB5FF;}
+.pink {background-color: #FFC1E0;}
+.dark {color:white; background-color: black}
+.cute {font-family:'Ink Free', sans-serif; text-align: center; font-size: larger;}
+.rb {background: linear-gradient(90deg, #FF9797 0%, #FFFFB9 25%, #BBFFBB 50%, #ACD6FF 75%, #DCB5FF 100%);}
