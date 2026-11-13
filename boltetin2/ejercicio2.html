@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Preferencias de desarrollo</title>
+    </head>
+    <body>
+        <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="post">
+            <fieldset>
+                <legend>Datos académicos</legend>
+            <label for="name">Nombre y apellidos:</label>
+            <input type="text" id="nombre" required><br>
+            <select name="Ciclo formativo" id="ciclo">
+                <option value="DAM" selected>DAM</option>
+                <option value="DAW">DAW</option>
+                <option value="ASIR">ASIR</option>
+            </select>
+                <legend>Preferencias técnicas</legend>
+                <label>Lenguaje principal</label>
+                <input name="lenguaje" type="radio" value="python"> Python
+                <input name="lenguaje" type="radio" value="java"> Java
+                <input name="lenguaje" type="radio" value="C#"> C#
+                <input name="lenguaje" type="radio" value="javascript"> JavaScript
+                <label>Entornos habituales</label>
+                <input name="Linux" type="checkbox" value="Linux"> Linux
+                <input name="Windows" type="checkbox" value="Windows"> Windows
+                <input name="macOS" type="checkbox" value="macOS"> macOS
+                <textarea rows="4" cols="40" placeholder="Comentarios" id="comentarios" name="comentarios"></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </body>
+</html>
